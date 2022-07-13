@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import {spiralwalk} from "./main";
 
 describe('Spiral Walk Test Suite', () => {
-    it('Can walk 0x0 array', () => {
+    it('Can walk a 0x0 array', () => {
         const arr = [[]] as string[][];
 
         expect(spiralwalk(arr)).to.equal('');
